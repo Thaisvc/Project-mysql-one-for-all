@@ -1,0 +1,10 @@
+/* #ou  desafio 9 
+#SELECT COUNT(SpotifyClone.historico_de_reproducoes.usuario_id) AS quantidade_musicas_no_historico
+#FROM SpotifyClone.historico_de_reproducoes 
+#JOIN SpotifyClone.usuarios 
+#ON SpotifyClone.usuarios .usuario_id = SpotifyClone.historico_de_reproducoes.usuario_id
+#WHERE SpotifyClone.usuarios .usuario = 'Barbara Liskov'
+#GROUP BY SpotifyClone.usuarios .usuario; */
+
+desafio 3
+/* https://pt.stackoverflow.com/questions/72710/inner-join-com-3-tabelas#:~:text=1%20Resposta&text=Basta%20fazer%202%20INNER%20JOIN%20relacionando%20as%20chaves%20das%20tabelas. */
