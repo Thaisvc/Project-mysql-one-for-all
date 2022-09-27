@@ -8,3 +8,5 @@ INNER JOIN SpotifyClone.cancoes
 ON SpotifyClone.cancoes.cancao_id = SpotifyClone.historico_de_reproducoes.cancao_id 
 GROUP BY usuario 
 ORDER BY usuario;
+
+/* https://pt.stackoverflow.com/questions/72710/inner-join-com-3-tabelas#:~:text=1%20Resposta&text=Basta%20fazer%202%20INNER%20JOIN%20relacionando%20as%20chaves%20das%20tabelas. */
